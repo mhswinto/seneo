@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LatihanActivity.soalLatihan_alatMusikDaerah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                >
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/waktu"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="00:59"
+            android:textSize="40dp"
+            android:fontFamily="@font/ubuntumed"
+            android:textColor="@color/birucard"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="30dp">
+
+    </Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/banyakKuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1/5"
+            android:textSize="20dp"
+            android:fontFamily="@font/ubuntumed"
+            android:textColor="@color/birucard"
+            >
+
+        </TextView>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp">
+
+        </Space>
+
+        <ImageView
+            android:id="@+id/pertanyaan"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/alatmusik_japen"
+            android:scaleType="centerCrop"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="30dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option1"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Alat Musik Jatung Utang"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        android:gravity="center"
+        android:textColor="@color/birucard"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option2"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Alat Musik Jatung Utang"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        android:gravity="center"
+        android:textColor="@color/birucard"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option3"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Alat Musik Jatung Utang"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        android:gravity="center"
+        android:textColor="@color/birucard"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option4"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Alat Musik Jatung Utang"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        android:gravity="center"
+        android:textColor="@color/birucard"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/option5"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Alat Musik Jatung Utang"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        android:gravity="center"
+        android:textColor="@color/birucard"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp">
+
+    </Space>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/birucard"
+        android:text="Next"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntumed"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Seneo">
         <activity
+            android:name=".LatihanActivity.hasilLatihanAlatMusik"
+            android:exported="false" />
+        <activity
+            android:name=".LatihanActivity.soalLatihan_alatMusikDaerah"
+            android:exported="false" />
+        <activity
             android:name=".UsernameActivity"
             android:exported="false" />
         <activity
@@ -53,7 +59,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

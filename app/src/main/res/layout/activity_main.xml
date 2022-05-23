@@ -129,7 +129,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="15dp"
-                android:src="@drawable/latihan"
+                android:src="@drawable/quiz"
                 >
 
             </ImageView>
